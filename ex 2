@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+bool f_2(int a)
+{
+return a>0;
+}
+int main()
+{
+    cout<<f_2(-45);
+    return 0;
+}
