@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+double f_5(double x)
+{
+return (pow(2*cos(x)*sin(x),2)+pow(pow(cos(x),2)-pow(sin(x),2),2))/2;
+}
+int main()
+{
+    cout<<f_5(4);
+    return 0;
+}
