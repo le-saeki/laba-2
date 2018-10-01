@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+bool f_3(int a)
+{
+return a/100%10==9;
+}
+int main()
+{
+    cout<<f_3(887);
+    return 0;
+}
